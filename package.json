@@ -21,7 +21,8 @@
     "typescript": "^2.0.0"
   },
   "renovate": {
-    "extends": [":library"]
+    "extends": [":library"],
+    "prCreation": "immediate"
   },
   "homepage": "https://v#readme"
 }
