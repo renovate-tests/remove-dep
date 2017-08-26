@@ -1,0 +1,27 @@
+{
+  "name": "private-npm-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renovate-tests/private-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renovate-tests/private-npm/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^1.0.0",
+    "tslint": "^5.0.0",
+    "typescript": "^2.0.0"
+  },
+  "renovate": {
+    "extends": [":library"]
+  },
+  "homepage": "https://v#readme"
+}
